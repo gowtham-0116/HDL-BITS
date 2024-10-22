@@ -5,7 +5,6 @@ module top_module(
     output reg out_alwaysblock
 );
     assign out_assign= a&b;
-    
     always@(*)
         out_alwaysblock= a&b;
 
