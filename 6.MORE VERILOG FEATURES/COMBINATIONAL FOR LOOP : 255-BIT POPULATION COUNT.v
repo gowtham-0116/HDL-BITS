@@ -1,6 +1,7 @@
 module top_module( 
     input [254:0] in,
     output [7:0] out );
+    
    integer i;
     reg[7:0] counter;
     always@(in)begin
