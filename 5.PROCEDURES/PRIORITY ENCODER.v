@@ -2,7 +2,7 @@ module top_module (
     input [3:0] in,
     output reg [1:0] pos  );
     
-    always@(*) begin
+always@(*) begin
         case(in)
             4'b0000 : pos = 1'b0;
             4'b0001 : pos = 1'b0;
