@@ -7,8 +7,7 @@ module top_module (
     input [3:0] data4,
     input [3:0] data5,
     output reg [3:0] out   );
-
-    always@(*) begin  // This is a combinational circuit
+   always@(*) begin  // This is a combinational circuit
         case(sel)
             3'b000:begin
                 out=data0;
@@ -30,7 +29,5 @@ module top_module (
             end
             default:out=0;
         endcase
-            
-    end
-
-endmodule
+             end
+       endmodule
